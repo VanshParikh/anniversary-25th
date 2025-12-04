@@ -8,12 +8,12 @@ const memories = [
   {
     src: "assets/photos/photo3.jpg",
     title: "Family Moments",
-    text: "The days when our small family felt like the whole world."
+    text: "The family felt like the whole world."
   },
   {
     src: "assets/photos/photo2.jpg",
     title: "Festive Smiles",
-    text: "Celebrating festivals together with joy and laughter."
+    text: "together with joy and laughter."
   },
   {
     src: "assets/photos/photo4.jpg",
@@ -97,4 +97,5 @@ musicToggleBtn.addEventListener("click", () => {
   }
 });
 })
+
 
