@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy 25th Anniversary, Mom & Dad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="heart-bg">
+  <span class="heart"></span>
+  <span class="heart"></span>
+  <span class="heart"></span>
+  <span class="heart"></span>
+  <span class="heart"></span>
+</div>
+
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Happy 25th Anniversary</h1>
+      <h2>Mom &amp; Dad</h2>
+      <p>Celebrating 25 years of love, laughter, and togetherness.</p>
+      <button id="scrollGalleryBtn">View Our Memories</button>
+      <button id="musicToggleBtn">Play Music</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 25 Years Timeline -->
+    <section class="section" id="timeline">
+      <h2>25 Years of Togetherness</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>05/12/2000</h3>
+          <p>The beautiful journey began with your wedding day.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2009</h3>
+          <p>School runs, late‑night talks, and family trips became our favorite routine.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2010</h3>
+          <p>Trips, festivals, and everyday moments made our bond stronger.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2020</h3>
+          <p>Even in tough times, your love and support never failed.</p>
+        </div>
+        <div class="timeline-item">
+          <h3>2025</h3>
+          <p>25 years later, your love story is still inspiring.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="section" id="gallery">
+      <h2>Our Favorite Memories</h2>
+      <p class="section-subtitle">Tap on any photo to see the message.</p>
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Images rendered by script.js -->
+      </div>
+    </section>
+
+    <!-- 25 Things We Love -->
+    <section class="section" id="love-list">
+      <h2>25 Things We Love About You</h2>
+      <ol class="love-list">
+        <li>Your unconditional love for each other.</li>
+        <li>The way you care for our family.</li>
+        <li>Your endless support in every situation.</li>
+        <li>Your sense of humor that lights up the house.</li>
+        <li>Your patience and understanding.</li>
+        <li>The values you taught us.</li>
+        <li>Your guidance in difficult times.</li>
+        <li>Your ability to stay strong together.</li>
+        <li>Your blessings in everything we do.</li>
+        <li>Your dedication to our happiness.</li>
+        <li>Your faith and positivity.</li>
+        <li>Your trust in each other.</li>
+        <li>Your celebrations of every small moment.</li>
+        <li>Your hugs that feel like home.</li>
+        <li>Your encouragement for our dreams.</li>
+        <li>Your teamwork in handling life.</li>
+        <li>Your honesty and transparency.</li>
+        <li>Your love for traditions and festivals.</li>
+        <li>Your sacrifices for our future.</li>
+        <li>Your beautiful love story that inspires us every day.</li>
+      </ol>
+    </section>
+
+    <!-- Message Section -->
+    <section class="section" id="message">
+      <h2>For my lovely Mummy Papa,</h2>
+      <p class="message-text">
+        Happy 25 Silver Jubilee
+      </p>
+      <p class="message-text">
+       Hellooooooo,
+thank you guys for showing what true love looks like in this generation. These 25 years are not just a number, but a collection of countless memories, sacrifices, smiles, and shared dreams.
+
+The way you both love each other… the small sacrifices for each other… the way you take care of each other…
+
+Like a few months before, when Mummy fell from the staircase (Auran Ba home). Papa, that time you were not here. The next minute I told you, you replied normally, not too emotional—but I knew you cared a lot. From the very next moment, you started searching for a return ticket to come back and take care of your wife. You don’t show or say much, but the way you care for Mummy and for us is something we want to learn from.
+      </p>
+      <p class="message-text signature">
+        And from Mummy—she is the same. She shows a little more emotion, but whenever Papa feels even a little unwell, the way she takes care of him every moment… making good food, doing all the work alone… I have no words to describe the way you both love each other.
+        With lots of love,<br />
+        Vansh Parikh ❤️
+      </p>
+    </section>
+  </main>
+
+  <!-- Modal for full image + message -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modalClose" class="modal-close">&times;</span>
+      <img id="modalImage" src="" alt="Memory photo" />
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+    </div>
+  </div>
+
+  <audio id="bgMusic" loop>
+    <!-- Replace with your file in assets/audio/ -->
+    <source src="assets/audio/song.mp3" type="audio/mpeg" />
+  </audio>
+
+  <footer class="footer">
+    <p>Celebrating the Silver Jubilee of your love 🤍</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
